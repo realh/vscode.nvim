@@ -24,7 +24,6 @@ vscode.load = function(style)
         vim.o.background = background
     end
 
-
     theme.set_highlights(config.opts)
     theme.link_highlight()
 
